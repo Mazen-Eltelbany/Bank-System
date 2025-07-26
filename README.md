@@ -59,12 +59,23 @@ Open the project in your preferred IDE or compile using:
 
 ```bash
 cd Bank-System
-cd Bank-Sytem-files
+cd Bank-System-files
 ```
 
 3- **Compile:**
-"If you don't have a g++ compiler download from this video"
-<a href="https://youtu.be/GxFiUEO_3zM">The Installation guide</a>
+**⚠️ Compiler Requirements**
+
+- This project uses Microsoft-specific extensions such as \_\_declspec(property) which are not compatible with g++ (GCC).
+
+- ✅ Please compile this project using Microsoft Visual C++ (MSVC) via Visual Studio.
+
+**❌ Not Supported:**
+
+- g++ / MinGW / Linux-based compilers
+
+**✅ Supported:**
+
+- Microsoft Visual Studio (with MSVC compiler)
 
 ```bash
 g++ Bank-System.cpp -o BS
